@@ -31,8 +31,11 @@ body{
 	text-align: center;
 }
 .logo img{
-	width: 90px;
 	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90px;
 }
 h1{
 	font-size: xxx-large;
