@@ -59,6 +59,7 @@ h1{
 	grid-template-columns: 100px 100px 100px 100px;
 	column-gap: 20px;
 	grid-template-rows: 100px;
+	padding: 0px 0px 0px 45px;
 
 }
 #day,
@@ -74,7 +75,6 @@ h1{
 	position: absolute;
 	width: 6px;
 	height: 20px;
-	background-color: black;
 	content: '';
 	left: 0;
 	top: 50%;
