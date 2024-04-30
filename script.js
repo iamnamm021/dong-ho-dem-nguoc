@@ -1,4 +1,4 @@
-let endDate = new Date("15/08/2024 00:00:00").getTime();
+let endDate = new Date("15 August 2024 12:00:00 UTC+07:00").getTime();
 console.log(endDate);
 let check = setInterval(function(){
 	let now = new Date().getTime();
