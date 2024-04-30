@@ -2,6 +2,7 @@ let endDate = new Date("15/08/2024 00:00:00").getTime();
 console.log(endDate);
 let check = setInterval(function(){
 	let now = new Date().getTime();
+	console.log(now);
 	let distance = endDate - now;
 	console.log(distance);
 	let day = Math.floor(distance / (24*60*60*1000));
